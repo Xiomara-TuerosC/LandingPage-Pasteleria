@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dulce Tentacion - Pasteleria</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+<div class="logo">
+<span class="brand-green">Dulce Tentacion</span> <span class="brand-dark">Pasteleria |
+Zarelly Tueros</span>
+</div>
+<ul class="nav-links">
+<li><a href="#inicio" class="nav-link">Acerca de nosotros</a></li>
+<li><a href="#productos" class="nav-link">Catalogo</a></li>
+<li><a href="#nuestrahistoria" class="nav-link">Nuestra historia</a></li>
+<li><a href="#contacto" class="btn-contact">Contactanos</a></li>
+</ul>
+</nav>
+<!-- HERO -->
+<!-- ================= HERO ================= -->
+<section class="hero" id="inicio">
+
+    <!-- Texto -->
+    <div class="hero-text">
+
+        <span class="hero-subtitle">
+            ✨ Pastelería artesanal
+        </span>
+
+        <h2>El mejor sabor en cada bocado</h2>
+
+        <p>
+            Descubre nuestros pasteles artesanales elaborados con ingredientes
+            frescos, recetas caseras y mucho amor. Creamos momentos dulces para
+            cumpleaños, aniversarios, bodas y toda ocasión especial.
+        </p>
+
+        <div class="contenedor-botones">
+
+  <button class="btn-card" onclick="accionBoton('stock')">
+    <img src="imagenes/CASA PASTEL.webp" alt="Artesanal" class="btn-icono">
+    <span class="btn-titulo">Stock</span>
+    <span class="btn-subtitulo">Hecho con amor</span>
+  </button>
+
+  <button class="btn-card" onclick="accionBoton('delivery')">
+    <img src="imagenes/DELIVERY.jpg" alt="Delivery" class="btn-icono">
+    <span class="btn-titulo">Delivery</span>
+    <span class="btn-subtitulo">Entrega rápida</span>
+  </button>
+
+  <button class="btn-card" onclick="accionBoton('personalizado')">
+    <img src="imagenes/pastelera.jpg" alt="Personalizado" class="btn-icono">
+    <span class="btn-titulo">Personalizado</span>
+    <span class="btn-subtitulo">A tu gusto</span>
+  </button>
+
+</div>
+
+    </div>
+
+    <!-- Carrusel -->
+    <div class="slider">
+
+        <img src="imagenes/pastelrosa.jpg" class="slide active" alt="Pastel">
+
+        <img src="imagenes/torta de chocolate.jpg" class="slide" alt="Chocolate">
+
+        <img src="imagenes/cupcake.jpg" class="slide" alt="Cupcake">
+
+        <img src="imagenes/torta de fresa.jfif" class="slide" alt="Fresa">
+
+        <img src="imagenes/alfajores.jpg" class="slide" alt="Alfajores">
+
+    </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+<section class="section" id="productos">
+    <h2>Catálogo</h2>
+    <p>Los favoritos de nuestros clientes</p>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="imagenes/torta de chocolate.jpg" alt="Torta de Chocolate">
+            <h3>Torta de Chocolate</h3>
+            <p>Bizcocho suave con cobertura de chocolate cremoso.</p>
+            <span class="price">S/ 35.00</span>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/cheesck.jpg" alt="Cheesecake">
+            <h3>Cheesecake</h3>
+            <p>Postre suave con queso crema y base crocante.</p>
+            <span class="price">S/ 30.00</span>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/cupcake.jpg" alt="Cupcakes">
+            <h3>Cupcakes</h3>
+            <p>Mini tortas decoradas perfectas para cualquier ocasión.</p>
+            <span class="price">S/ 8.00 c/u</span>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/browni.jpg" alt="Brownies">
+            <h3>Brownies</h3>
+            <p>Brownies suaves con intenso sabor a chocolate.</p>
+            <span class="price">S/ 6.00</span>
+        </div>
+
+        <!-- 🔥 NUEVOS PRODUCTOS -->
+
+        <div class="card">
+            <img src="imagenes/torta de fresa.jfif" alt="Torta de Fresa">
+            <h3>Torta de Fresa</h3>
+            <p>Bizcocho esponjoso con fresas frescas y crema chantilly.</p>
+            <span class="price">S/ 38.00</span>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/alfajores.jpg" alt="Alfajores">
+            <h3>Alfajores</h3>
+            <p>Galletas suaves rellenas de dulce de leche y azúcar glass.</p>
+            <span class="price">S/ 10.00</span>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/maracuya.jfif" alt="Cheesecake de Maracuyá">
+            <h3>Cheesecake de Maracuyá</h3>
+            <p>Fresco cheesecake con topping de maracuyá natural.</p>
+            <span class="price">S/ 32.00</span>
+        
+        </div>
+
+        <div class="card">
+            <img src="imagenes/gelatina.jpg" alt="Gelatina Especial">
+            <h3>Gelatina Especial</h3>
+            <p>Postre ligero y colorido ideal para eventos y fiestas.</p>
+            <span class="price">S/ 7.00</span>
+        </div>
+
+    </div>
+</section>
+
+  <!-- ABOUT -->
+<!-- NUESTRA HISTORIA -->
+<section class="about" id="nuestrahistoria">
+
+    <div class="about-title">
+        <span class="subtitle">Nuestra Historia</span>
+        <h2>Endulzando momentos especiales desde el primer día</h2>
+    </div>
+
+    <div class="about-content">
+
+        <!-- Galería -->
+        <div class="about-images">
+
+            <img src="imagenes/pastelera.jpg" alt="Pastelera">
+
+            <img src="imagenes/CASA PASTEL.webp" alt="Pastelería">
+
+            <img src="imagenes/pastelrosa.jpg" alt="Pastel">
+
+            <img src="imagenes/cupcake.jpg" alt="Cupcakes">
+
+        </div>
+
+        <!-- Texto -->
+        <div class="about-text">
+
+            <p>
+                En <strong>Dulce Tentación</strong> creemos que cada postre cuenta una historia.
+                Nacimos con el sueño de crear tortas y postres artesanales preparados con ingredientes frescos,
+                recetas caseras y mucho amor.
+            </p>
+
+            <p>
+                Durante estos años hemos acompañado cumpleaños, aniversarios, bodas y muchas celebraciones,
+                creando momentos únicos con sabores que permanecen en la memoria de nuestros clientes.
+            </p>
+
+            <p>
+                Nuestro compromiso es ofrecer calidad, creatividad y una atención personalizada,
+                para que cada visita a nuestra pastelería sea una experiencia dulce e inolvidable.
+            </p>
+
+            <div class="about-stats">
+
+                <div class="stat">
+                    <h3>500+</h3>
+                    <span>Clientes felices</span>
+                </div>
+
+                <div class="stat">
+                    <h3>50+</h3>
+                    <span>Diseños exclusivos</span>
+                </div>
+
+                <div class="stat">
+                    <h3>100%</h3>
+                    <span>Ingredientes frescos</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+  
+
+
+</section>
+<section class="contacto" id="contacto">
+
+    <h2>Contáctanos</h2>
+    <p>Envíanos un mensaje o escríbenos por WhatsApp.</p>
+
+    <div class="contact-container">
+
+        <!-- FORMULARIO -->
+        <form action="https://formsubmit.co/TUCORREO@gmail.com" method="POST" class="contact-form">
+
+            <input type="text" name="Nombre" placeholder="Nombre completo" required>
+
+            <input type="email" name="Correo" placeholder="Correo electrónico" required>
+
+            <input type="tel" name="Telefono" placeholder="Teléfono">
+
+            <textarea name="Mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit" class="btn-enviar">
+                Enviar mensaje
+            </button>
+
+            <!-- Configuración de FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="gracias.html">
+
+        </form>
+
+        <!-- WHATSAPP -->
+        <div class="contact-info">
+
+            <h3>También puedes escribirnos por WhatsApp</h3>
+
+            <a class="btn-wsp-contact"
+               href="https://wa.me/51930250409"
+               target="_blank">
+
+                <img src="imagenes/wsp.png" alt="WhatsApp">
+                Escribir por WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+<!-- MODAL STOCK -->
+<div id="modalStock" class="modal">
+    <div class="modal-content">
+        <span class="cerrar">&times;</span>
+
+        <h2>Productos Disponibles</h2>
+
+        <div class="stock-item">
+            <h3>Torta de Chocolate</h3>
+            <p>Porciones disponibles: 12</p>
+        </div>
+
+        <div class="stock-item">
+            <h3>Cheesecake</h3>
+            <p>Porciones disponibles: 8</p>
+        </div>
+
+        <div class="stock-item">
+            <h3>Torta de Fresa</h3>
+            <p>Porciones disponibles: 10</p>
+        </div>
+    </div>
+</div>
+<!-- MODAL PERSONALIZADO -->
+<div id="modalPersonalizado" class="modal">
+    <div class="modal-content">
+        <span class="cerrarPersonalizado">&times;</span>
+
+        <h2>Pedido Personalizado</h2>
+
+        <input type="text" placeholder="Tamaño (pequeño, mediano, grande)">
+        <input type="text" placeholder="Sabor">
+        <input type="text" placeholder="Decoración">
+        <input type="number" placeholder="Cantidad de porciones">
+
+        <button class="btn-enviar">Enviar solicitud</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
